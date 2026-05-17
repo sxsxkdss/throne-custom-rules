@@ -18,4 +18,33 @@
         "Discord.exe"
     ]
 }
+,{
+    "action": "route",
+    "domain": [
+        "dis.gd",
+        "discord.co",
+        "discord.com",
+        "discord.design",
+        "discord.dev",
+        "discord.gg",
+        "discord.gift",
+        "discord.gifts",
+        "discord.media",
+        "discord.new",
+        "discord.store",
+        "discord.tools",
+        "discord-activities.com",
+        "discordactivities.com",
+        "discordapp.com",
+        "discordapp.net",
+        "discordmerch.com",
+        "discordpartygames.com",
+        "discordsays.com",
+        "discordstatus.com"
+    ],
+    "ip_cidr": [
+        "34.0.0.0/16,35.207.0.0/16,35.214.0.0/16,35.215.0.0/16,35.213.0.0/16,35.217.0.0/16,35.219.0.0/16,66.22.0.0/16"
+    ],
+    "outbound": "proxy"
+}
 ]
