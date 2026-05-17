@@ -50,8 +50,44 @@
         "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
         "openaicom.imgix.net",
         "openaicomproductionae4b.blob.core.windows.net",
-        "production-openaicom-storage.azureedge.net"
+        "production-openaicom-storage.azureedge.net",
+        "modrinth.com",
+        "cdn.modrinth.com",
+        "api.modrinth.com",
+        "staging.modrinth.com",
+        "docs.modrinth.com",
+        "status.modrinth.com",
+        "analytics.modrinth.com",
+        "auth.modrinth.com",
+        "patreon.modrinth.com",
+        "discord.modrinth.com",
+        "blog.modrinth.com",
+        "support.modrinth.com",
+        "legal.modrinth.com",
+        "cdn-v2.modrinth.com",
+        "avatars.modrinth.com",
+        "modrinth.xyz",
+        "modrinth.dev",
+        "maven.modrinth.com",
+        "download.modrinth.com",
+        "old.modrinth.com",
+        "curseforge.com",
+        "mediafilez.forgecdn.net",
+        "edge.forgecdn.net",
+        "maven.minecraftforge.net",
+        "maven.neoforged.net",
+        "neoforged.net",
+        "modloaders.forgecdn.net",
+        "claude.ai",
+        "anthropic.com"
     ],
     "outbound": "proxy"
+}
+,{
+    "action": "route",
+    "outbound": "proxy",
+    "process_name": [
+        "Telegram.exe"
+    ]
 }
 ]
