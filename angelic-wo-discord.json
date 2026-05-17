@@ -87,7 +87,8 @@
     "action": "route",
     "outbound": "proxy",
     "process_name": [
-        "Telegram.exe"
+        "Telegram.exe",
+        "claude.exe"
     ]
 }
 ]
