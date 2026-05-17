@@ -1,0 +1,21 @@
+[{
+    "action": "hijack-dns",
+    "protocol": "dns"
+}
+,{
+    "action": "route",
+    "outbound": "direct",
+    "process_name": [
+        "steam.exe",
+        "steamservice.exe",
+        "steamwebhelper.exe"
+    ]
+}
+,{
+    "action": "route",
+    "outbound": "proxy",
+    "process_name": [
+        "Discord.exe"
+    ]
+}
+]
