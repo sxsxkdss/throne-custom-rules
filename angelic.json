@@ -13,13 +13,6 @@
 }
 ,{
     "action": "route",
-    "outbound": "proxy",
-    "process_name": [
-        "Discord.exe"
-    ]
-}
-,{
-    "action": "route",
     "domain": [
         "dis.gd",
         "discord.co",
@@ -77,18 +70,66 @@
         "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
         "openaicom.imgix.net",
         "openaicomproductionae4b.blob.core.windows.net",
-        "production-openaicom-storage.azureedge.net"
-    ],
-    "ip_cidr": [
-        "34.0.0.0/16",
-        "35.207.0.0/16",
-        "35.214.0.0/16",
-        "35.215.0.0/16",
-        "35.213.0.0/16",
-        "35.217.0.0/16",
-        "35.219.0.0/16",
-        "66.22.0.0/16"
+        "production-openaicom-storage.azureedge.net",
+        "modrinth.com",
+        "cdn.modrinth.com",
+        "api.modrinth.com",
+        "staging.modrinth.com",
+        "docs.modrinth.com",
+        "status.modrinth.com",
+        "analytics.modrinth.com",
+        "auth.modrinth.com",
+        "patreon.modrinth.com",
+        "discord.modrinth.com",
+        "blog.modrinth.com",
+        "support.modrinth.com",
+        "legal.modrinth.com",
+        "cdn-v2.modrinth.com",
+        "avatars.modrinth.com",
+        "modrinth.xyz",
+        "modrinth.dev",
+        "maven.modrinth.com",
+        "download.modrinth.com",
+        "old.modrinth.com",
+        "curseforge.com",
+        "mediafilez.forgecdn.net",
+        "edge.forgecdn.net",
+        "maven.minecraftforge.net",
+        "maven.neoforged.net",
+        "neoforged.net",
+        "modloaders.forgecdn.net",
+        "claude.ai",
+        "anthropic.com",
+        "youtube.googleapis.com",
+        "yt3.ggpht.com",
+        "yt4.ggpht.com",
+        "yt3.googleusercontent.com",
+        "googlevideo.com",
+        "jnn-pa.googleapis.com",
+        "stable.dl2.discordapp.net",
+        "wide-youtube.l.google.com",
+        "youtube-nocookie.com",
+        "youtube-ui.l.google.com",
+        "youtube.com",
+        "youtubeembeddedplayer.googleapis.com",
+        "youtubekids.com",
+        "youtubei.googleapis.com",
+        "youtu.be",
+        "yt-video-upload.l.google.com",
+        "ytimg.com",
+        "ytimg.l.google.com",
+        "googlevideo.com",
+        "github.com",
+        "tiktok.com"
     ],
     "outbound": "proxy"
+}
+,{
+    "action": "route",
+    "outbound": "proxy",
+    "process_name": [
+        "Telegram.exe",
+        "claude.exe"
+    ]
 }
 ]
