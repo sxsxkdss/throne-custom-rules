@@ -8,7 +8,8 @@
     "process_name": [
         "steam.exe",
         "steamservice.exe",
-        "steamwebhelper.exe"
+        "steamwebhelper.exe",
+        "Discord.exe"
     ]
 }
 ,{
@@ -80,7 +81,6 @@
         "modloaders.forgecdn.net",
         "claude.ai",
         "anthropic.com",
-        "github.com",
         "tiktok.com"
     ],
     "outbound": "proxy"
@@ -92,5 +92,29 @@
         "Telegram.exe",
         "claude.exe"
     ]
+}
+,{
+    "action": "route",
+    "domain": [
+        "youtube.googleapis.com",
+        "yt3.ggpht.com",
+        "yt4.ggpht.com",
+        "yt3.googleusercontent.com",
+        "googlevideo.com",
+        "jnn-pa.googleapis.com",
+        "stable.dl2.discordapp.net",
+        "wide-youtube.l.google.com",
+        "youtube-nocookie.com",
+        "youtube-ui.l.google.com",
+        "youtube.com",
+        "youtubeembeddedplayer.googleapis.com",
+        "youtubekids.com",
+        "youtubei.googleapis.com",
+        "youtu.be",
+        "yt-video-upload.l.google.com",
+        "ytimg.com",
+        "ytimg.l.google.com"
+    ],
+    "outbound": "direct"
 }
 ]
