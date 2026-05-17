@@ -1,0 +1,57 @@
+[{
+    "action": "hijack-dns",
+    "protocol": "dns"
+}
+,{
+    "action": "route",
+    "outbound": "direct",
+    "process_name": [
+        "steam.exe",
+        "steamservice.exe",
+        "steamwebhelper.exe"
+    ]
+}
+,{
+    "action": "route",
+    "domain": [
+        "cms-twdigitalassets.com",
+        "periscope.tv",
+        "pscp.tv",
+        "t.co",
+        "tellapart.com",
+        "tweetdeck.com",
+        "twimg.com",
+        "twitpic.com",
+        "twitter.biz",
+        "twitter.com",
+        "twitter.jp",
+        "twitter.map.fastly.net",
+        "twittercommunity.com",
+        "twitterflightschool.com",
+        "twitterinc.com",
+        "twitteroauth.com",
+        "twitterstat.us",
+        "twtrdns.net",
+        "twttr.com",
+        "twttr.net",
+        "twvid.com",
+        "vine.co",
+        "x.com",
+        "grok.com",
+        "chat.com",
+        "chatgpt.com",
+        "crixet.com",
+        "oaistatic.com",
+        "oaiusercontent.com",
+        "openai.com",
+        "sora.com",
+        "openai.com.cdn.cloudflare.net",
+        "openaiapi-site.azureedge.net",
+        "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+        "openaicom.imgix.net",
+        "openaicomproductionae4b.blob.core.windows.net",
+        "production-openaicom-storage.azureedge.net"
+    ],
+    "outbound": "proxy"
+}
+]
