@@ -81,6 +81,7 @@
         "modloaders.forgecdn.net",
         "claude.ai",
         "anthropic.com",
+        "github.com",
         "tiktok.com"
     ],
     "outbound": "proxy"
